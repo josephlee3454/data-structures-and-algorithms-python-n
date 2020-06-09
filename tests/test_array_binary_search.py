@@ -1,5 +1,5 @@
-from data_structures_and_algorithms_python_n.binary import fill_array
-def test_fill_array():
-    actual = "quit" 
-    expected = False
+from code_challenges.binary import binary_search
+def test_binary_search():
+    actual = 
+    expected = 
     assert actual == expected
