@@ -4,9 +4,13 @@
 # Visit GitHub!.
 ## resources: stack overflow
 ## overveiw
-* binary  search functions checks by cutting list in ahlf and looking for mid point and iterating said number 
+* we are going to retrun the next npode in the linked list if there is no node we will return a null value
 # feature tasks
-* Write a function called BinarySearch which takes in 2 parameters: a sorted array and the search key. Without utilizing any of the built-in methods available to your language, return the index of the array’s element that is equal to the search key, or -1 if the element does not exist.docstrings
+* ​Create a Node class that has properties for the value stored in the Node, and a pointer to the next Node.
+* Within your LinkedList class, include a head property. Upon instantiation, an empty Linked List should be created.
+* Define a method called insert which takes any value as an argument and adds a new node with that value to the head of the list with an O(1) Time performance.
+* Define a method called includes which takes any value as an argument and returns a boolean result depending on whether that value exists as a Node’s value somewhere within the list.
+* Define a method called toString (or __str__ in Python) which takes in no arguments and returns a string representing all the values in the Linked List, formatted as:
 # Dependencies
 * poetry
 * python
@@ -16,3 +20,4 @@
 # Official application github
 # license
 * This project is under the MIT License.
+[white board](assets/2020-06-15.png)
