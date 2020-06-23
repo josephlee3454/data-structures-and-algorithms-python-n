@@ -4,13 +4,10 @@
 # Visit GitHub!.
 ## resources: stack overflow
 ## overveiw
-* we are going to retrun the next npode in the linked list if there is no node we will return a null value
+* we are going to merge two linked lists 
 # feature tasks
-* ​Create a Node class that has properties for the value stored in the Node, and a pointer to the next Node.
-* Within your LinkedList class, include a head property. Upon instantiation, an empty Linked List should be created.
-* Define a method called insert which takes any value as an argument and adds a new node with that value to the head of the list with an O(1) Time performance.
-* Define a method called includes which takes any value as an argument and returns a boolean result depending on whether that value exists as a Node’s value somewhere within the list.
-* Define a method called toString (or __str__ in Python) which takes in no arguments and returns a string representing all the values in the Linked List, formatted as:
+
+# Write a function called mergeLists which takes two linked lists as arguments. Zip the two linked lists together into one so that the nodes alternate between the two lists and return a reference to the head of the zipped list. Try and keep additional space down to O(1). You have access to the Node class and all the properties on the Linked List class as well as the methods created in previous challenges.
 # Dependencies
 * poetry
 * python
@@ -20,4 +17,4 @@
 # Official application github
 # license
 * This project is under the MIT License.
-[white board](assets/2020-06-15.png)
+[white board](assets/2020-06-22(9).png)
