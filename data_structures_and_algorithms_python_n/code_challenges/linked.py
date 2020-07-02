@@ -1,51 +1,47 @@
 class Node:
-
-
-  def __init__(self, value):
-
-    self.value = value
-    self.next = None
+  
+  @classmethod
+  def __init__(self, data , next_node=None):
+    self.data = data
+    self.next_node = next_node
 
   def __repr__ (self):
-
-    return f"{self.value} : {self.next_node}"
+    return f"{self.data} : {self.next_node}"
   def __str__(self):
+    return f"{self.data} -> {self.data} -> {self.data} -> null"
 
-    return f"{self.value} -> {self.value} -> {self.value} -> null"
-
-class LinkedList:
-
-  def __init__(self):
-    self.head = None
-  
-  def print_list(self):
-    current_node = self.head
-    while current_node:
-      print(current_node.value)
-      current_node = current_node.next
- 
+class LinkedList(Node):
+  @classmethod
+  def __init__(self, head=None):
+    self.head = head
+  # @staticmethod
   def __repr__(self):
-    return f"{self.head_node}:"
-  
+    return f"{self.head}"
+  # @staticmethod
   def __str__(self):
-
-    return f"{self} -> {self} -> {self} -> null"
+    return f"{self.head}"
   
-  def insert(self,value):
-    new_node = Node(value)
-
-    if self.head is None:
+  # @staticmethod
+  def insert_node(self):
+  
+    new_node = Node(data)
+    if not self.head:
       self.head = new_node
-      return
-    last_node = self.head
-    while last_node.next:
-      last_node = last_node.next
-    last_node.next = new_node
+    
+    else:
+      new_node.next_node = self.head 
+      self.head = new_node
 
 
 
-ll = LinkedList()
-ll.insert("a")
-ll.insert("b")
-ll.insert("c")
-ll.print_list()
+
+# ll = LinkedList()
+# ll.insert("a")
+# ll.insert("b")
+# ll.insert("c")
+# ll.print_list()
+if __name__ == "__main__":
+  # print(Node('hello'))
+  ll = LinkedList()
+  print(ll.insert_node())
+   

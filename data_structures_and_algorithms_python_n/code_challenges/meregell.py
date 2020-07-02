@@ -70,3 +70,10 @@
 
     # print("Merged Linked List is :", ends="")
     # list3.printlist()
+
+def merge_lists(self,Ll1,Ll2):
+  cur1 = Ll1.head ##assigns current1 to head of Ll1 
+  cur2 = Ll2.head ## assigns current2 to head of Ll2
+
+      
+
