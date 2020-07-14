@@ -4,10 +4,11 @@
 # Visit GitHub!.
 ## resources: stack overflow
 ## overveiw
-* we are going to merge two linked lists 
-# feature tasks
+* we are going to check brackets if they are open and we need to mactch them to their closing
 
-# Write a function called mergeLists which takes two linked lists as arguments. Zip the two linked lists together into one so that the nodes alternate between the two lists and return a reference to the head of the zipped list. Try and keep additional space down to O(1). You have access to the Node class and all the properties on the Linked List class as well as the methods created in previous challenges.
+# Problem domain
+Your function should take a string as its only argument, and should return a boolean representing whether or not the brackets in the string are balanced. There are 3 types of brackets:
+
 # Dependencies
 * poetry
 * python
@@ -17,4 +18,5 @@
 # Official application github
 # license
 * This project is under the MIT License.
-[white board](assets/2020-06-22(9).png)
+[white board](assets/2020-07-13.png)
+[white board](assets/2020-07-13(1).png)
