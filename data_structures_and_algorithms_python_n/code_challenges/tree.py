@@ -20,6 +20,8 @@ class Binary_Tree(object):
       return self.inorder_print(tree.root, "")
     elif traversal_type == "postorder":
       return self.postorder_print(tree.root, "")
+    elif traversal_type == "max":
+      return self.findMaxRecursive(root)
   # 1-2-5-6-4-7-8-
   def preorder_print(self, start, traversal):
     if start: 
@@ -43,6 +45,19 @@ class Binary_Tree(object):
       traversal += (str(start.value) + "-")
     return traversal
 
+maxData = float("-infinity")
+def find_max(root):    # maxData is the initially the value of root
+	global maxData
+	if not root:	
+		return maxData
+	if root.getData() > maxData:
+		maxData = root.value
+	find_max(root.left)
+	find_max(root.right)
+	return maxData
+    
+ 
+
 
 
 
@@ -57,4 +72,4 @@ tree.root.right.left = Node(6)
 tree.root.right.right = Node(7)
 tree.root.right.right.right = Node(8)
 
-print(tree.print_tree("postorder"))
+print(tree.print_tree("Max"))
