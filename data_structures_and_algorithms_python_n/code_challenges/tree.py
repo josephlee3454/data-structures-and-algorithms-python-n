@@ -43,7 +43,34 @@ class Binary_Tree(object):
       traversal += (str(start.value) + "-")
     return traversal
 
+class Bst:
+  def insert(root, node):
+    if root is None:
+      root = node
+    fizz_buzz_replace()
+    else:
+      if root.val < node.val:
+        if root.right is None:
+          root.right = node
+        else:
+          insert(root.right, Node)
+      else: 
+        if root.left is None:
+          root.left = none 
+      else: 
+        if root.left is None:
+          root.left = node 
+        else:
+          insert(root.left, node)
 
+  def fizz_buzz_replace(self):
+    if node(val) % 3 == 0:
+      node(val) = 'fizz'
+    elif node(val)%5 == 0:
+	    node(val) = 'buzz'
+    elif node(val) % 3 == 0 and node(val)%5:
+      node(val) = ‘fizz-buzz’
+  return node val 
 
 
 
@@ -56,5 +83,8 @@ tree.root.left.right = Node(5)
 tree.root.right.left = Node(6)
 tree.root.right.right = Node(7)
 tree.root.right.right.right = Node(8)
+
+
+
 
 print(tree.print_tree("postorder"))

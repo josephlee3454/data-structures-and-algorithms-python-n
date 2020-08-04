@@ -1,17 +1,28 @@
 # Author: Joseph Lee
-## 17 may 2020
+## 1 aug 2020
 ## git hub
 # Visit GitHub!.
 ## resources: stack overflow
 ## overveiw
-* we are going to traverse a tree
+* A colleague has abruptly left the team to pursue a career as a novelist.
+
+* This colleague’s last days (and weeks) on the job were a mixed bag in terms of productivity.
+
+* Looking through the documents left behind there is some important contact info in the form of email addresses and phone numbers.
+
+* Unfortunately it’s mixed in with a bunch of useless notes.
+
+* Your job is to find the needles in the haystack.
 # feature tasks
 
-* Create a Node class that has properties for the value stored in the node, the left child node, and the right child node.
-* Create a BinaryTree class
-* Define a method for each of the depth first traversals called preOrder, inOrder, and postOrder which returns an array of the values, ordered appropriately.
-* Any exceptions or errors that come from your code should be semantic, capturable errors. For example, rather than a default error thrown by your language, your code should raise/throw a custom, sem
-
+* Given a document potential-contacts, find and collect all email addresses and phone numbers.
+* Phone numbers may be in various formats.
+* (xxx) yyy-zzzz, yyy-zzzz, xxx-yyy-zzzz, etc.
+* phone numbers with missing area code should presume 206
+* phone numbers should be stored in xxx-yyy-zzzz format.
+* Once emails and phone numbers are found they should be stored in two separate documents.
+* The information should be sorted in ascending order.
+* Duplicate entries are not allowed.
 # Dependencies
 * poetry
 * python
@@ -20,6 +31,3 @@
 ## software developer: ### Joseph Lee
 # Official application github
 # license
-* This project is under the MIT License.
-[white board]
-[white board]
