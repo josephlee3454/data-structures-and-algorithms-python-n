@@ -6,12 +6,12 @@
 ## overveiw
 * Review the pseudocode below, then trace the algorithm by stepping through the process with the provided sample array. Document your explanation by creating a blog article that shows the step-by-step output after each iteration through some sort of visual.
 
-* Once you are done with your article, code a working, tested implementation of Insertion Sort based on the pseudocode provided.
+* Once you are done with your article, code a working, tested implementation of Merge Sort based on the pseudocode provided.
 # feature tasks
 
 * In your blog article, visually show the output of processing this input array:
 
-* [8,4,23,42,16,15]
+[8,4,23,42,16,15]
 
 * For your own understanding, consider also stepping through these inputs:
 
@@ -31,6 +31,6 @@
 # Official application github
 # license
 
-[whiteboard](assets/Screenshot08_25_202007_09_56.jpg)
+[whiteboard](assets/Screenshot08_25_202008_36_56.jpg)
 * google draw link
-* https://docs.google.com/drawings/d/1fS6zpXWrqA6Onhaj9V45Zh-VU8KlbGyGae4QdEi42go/edit
+* https://docs.google.com/drawings/d/1BO6KGYDVF-VGcSbS5dIe5yTWMvfzpNZ1Vo2jIJahP5o/edit
