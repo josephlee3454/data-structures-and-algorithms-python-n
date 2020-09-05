@@ -39,4 +39,7 @@ class LinkedList:
     print(actual_node.data) # this prints the individual nodes DATA
     actual_node = actual_node.next_node # update actual node to the next node  
 
+  
+
+
 
