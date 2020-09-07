@@ -4,24 +4,12 @@
 # Visit GitHub!.
 ## resources: stack overflow
 ## overveiw
-* Review the pseudocode below, then trace the algorithm by stepping through the process with the provided sample array. Document your explanation by creating a blog article that shows the step-by-step output after each iteration through some sort of visual.
-
-* Once you are done with your article, code a working, tested implementation of Merge Sort based on the pseudocode provided.
+* create a hash table with a couple methods 
 # feature tasks
-
-* In your blog article, visually show the output of processing this input array:
-
-[8,4,23,42,16,15]
-
-* For your own understanding, consider also stepping through these inputs:
-
-* Reverse-sorted: [20,18,12,8,5,-2]
-* Few uniques: [5,12,7,5,5,7]
-* Nearly-sorted: [2,3,5,7,13,11]
-* Implementation
-* Provide a visual step through for each of the sample arrays based on the provided pseudo code
-* Convert the pseudo-code into working code in your language
-* Present a complete set of working tests
+* add: takes in both the key and value. This method should hash the key, and add the key and value pair to the table, handling collisions as needed.
+* get: takes in the key and returns the value from the table.
+* contains: takes in the key and returns a boolean, indicating if the key exists in the table already.
+* hash: takes in an arbitrary key and returns an index in the collection.
 # Dependencies
 * poetry
 * python
@@ -31,6 +19,6 @@
 # Official application github
 # license
 
-[whiteboard](assets/Screenshot08_25_202008_36_56.jpg)
+
 * google draw link
-* https://docs.google.com/drawings/d/1BO6KGYDVF-VGcSbS5dIe5yTWMvfzpNZ1Vo2jIJahP5o/edit
+* https://docs.google.com/drawings/d/1WlILAOa5TjteldduH8Pinj-HwXe_0FBD5zPpHVDuIDA/edit?usp=sharing
